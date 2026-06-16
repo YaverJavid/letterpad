@@ -1,0 +1,82 @@
+@font-face {
+  font-family: amiri;
+  src: url("fonts/Amiri-Regular.ttf");
+}
+
+@font-face {
+  font-family: urdu;
+  src: url("fonts/NotoNastaliqUrdu-VariableFont_wght.ttf");
+}
+
+
+@font-face {
+  font-family: pensil;
+  src: url("fonts/_PDMS_PencilNafees Regular.ttf");
+}
+
+body{
+  background: #e7d6bc;
+}
+
+
+#bismillah{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 8px;
+  font-family: urdu;
+  font-size: 0.8em;
+  letter-spacing: -2px;
+}
+
+#top-bar{
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-family: amiri;
+}
+
+#top-bar-right, #top-bar-left {
+  background: #9f9e88;
+  flex: 1;
+  height: 0.4lh;
+}
+
+#top-bar-right{
+  flex: 0.3;
+}
+
+#menu-bar{
+  font-family: monospace;
+  margin-bottom: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+select{
+  font-family: monospace;
+  border: none;
+  background: transparent;
+  
+}
+
+#contents{
+  font-family: urdu;
+  padding: 0 4px;
+}
+
+p{
+  unicode-bidi: plaintext;
+}
+
+#bismillah,
+#top-bar,
+#menu-bar,
+#contents {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
