@@ -75,7 +75,6 @@ function setRef(index, pushURL = true) {
     
     id("ref").value = index;
     
-    document.title = ref.ref;
 }
 
 function getRefFromURL() {
